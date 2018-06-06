@@ -1,0 +1,12 @@
+language: go
+
+go:
+  - 1.9
+
+install:
+  - wget https://github.com/golang/dep/releases/download/v0.4.1/dep-linux-amd64 -O /tmp/dep
+  - chmod +x /tmp/dep
+  - /tmp/dep ensure
+
+script:
+  - sh test.sh

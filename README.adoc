@@ -1,0 +1,3 @@
+= Go testing frameworks image:https://travis-ci.org/bmuschko/go-testing-frameworks.svg?branch=master["Build Status", link="https://travis-ci.org/bmuschko/go-testing-frameworks"]
+
+Demonstrates the use of different testing frameworks for Go code.
