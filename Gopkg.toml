@@ -21,3 +21,7 @@
 [[constraint]]
   name = "github.com/smartystreets/goconvey"
   version = "1.6.3"
+
+[[constraint]]
+  name = "github.com/ToQoz/gopwt"
+  version = "v1.2.0"
