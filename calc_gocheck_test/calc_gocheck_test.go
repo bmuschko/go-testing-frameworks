@@ -16,17 +16,17 @@ var _ = Suite(&MySuite{})
 
 func (s *MySuite) TestAdd(c *C) {
 	result := Add(1, 2)
-	c.Assert(result, Equals, int64(3))
+	c.Assert(result, Equals, 3)
 }
 
 func (s *MySuite) TestSubstract(c *C) {
 	result := Substract(5, 3)
-	c.Assert(result, Equals, int64(2))
+	c.Assert(result, Equals, 2)
 }
 
 func (s *MySuite) TestMultiply(c *C) {
 	result := Multiply(5, 6)
-	c.Assert(result, Equals, int64(30))
+	c.Assert(result, Equals, 30)
 }
 
 func (s *MySuite) TestDivide(c *C) {

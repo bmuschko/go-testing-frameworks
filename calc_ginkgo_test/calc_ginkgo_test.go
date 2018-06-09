@@ -10,7 +10,7 @@ var _ = Describe("Calculator", func() {
 	Describe("Add numbers", func() {
 		Context("1 and 2", func() {
 			It("should be 3", func() {
-				Expect(Add(1, 2)).To(Equal(int64(3)))
+				Expect(Add(1, 2)).To(Equal(3))
 			})
 		})
 	})
@@ -18,7 +18,7 @@ var _ = Describe("Calculator", func() {
 	Describe("Substract numbers", func() {
 		Context("3 from 5", func() {
 			It("should be 2", func() {
-				Expect(Substract(5, 3)).To(Equal(int64(2)))
+				Expect(Substract(5, 3)).To(Equal(2))
 			})
 		})
 	})
@@ -26,7 +26,7 @@ var _ = Describe("Calculator", func() {
 	Describe("Multiply numbers", func() {
 		Context("5 with 6", func() {
 			It("should be 30", func() {
-				Expect(Multiply(5, 6)).To(Equal(int64(30)))
+				Expect(Multiply(5, 6)).To(Equal(30))
 			})
 		})
 	})

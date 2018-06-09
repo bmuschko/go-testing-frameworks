@@ -8,41 +8,41 @@ import (
 
 func TestAdd(t *testing.T) {
 	Convey("Adding two numbers", t, func() {
-		x := int64(1)
-		y := int64(2)
+		x := 1
+		y := 2
 
 		Convey("should produce the expected result", func() {
-			So(Add(x, y), ShouldEqual, int64(3))
+			So(Add(x, y), ShouldEqual, 3)
 		})
 	})
 }
 
 func TestSubstract(t *testing.T) {
 	Convey("Substracting two numbers", t, func() {
-		x := int64(5)
-		y := int64(3)
+		x := 5
+		y := 3
 
 		Convey("should produce the expected result", func() {
-			So(Substract(x, y), ShouldEqual, int64(2))
+			So(Substract(x, y), ShouldEqual, 2)
 		})
 	})
 }
 
 func TestMultiply(t *testing.T) {
 	Convey("Multiplying two numbers", t, func() {
-		x := int64(5)
-		y := int64(6)
+		x := 5
+		y := 6
 
 		Convey("should produce the expected result", func() {
-			So(Multiply(x, y), ShouldEqual, int64(30))
+			So(Multiply(x, y), ShouldEqual, 30)
 		})
 	})
 }
 
 func TestDivide(t *testing.T) {
 	Convey("Dividing two numbers", t, func() {
-		x := int64(10)
-		y := int64(2)
+		x := 10
+		y := 2
 
 		Convey("should produce the expected result", func() {
 			So(Divide(x, y), ShouldEqual, float64(5))
