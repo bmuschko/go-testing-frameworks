@@ -1,4 +1,4 @@
-= Go testing frameworks image:https://travis-ci.org/bmuschko/go-testing-frameworks.svg?branch=master["Build Status", link="https://travis-ci.org/bmuschko/go-testing-frameworks"] image:https://codecov.io/gh/bmuschko/go-testing-frameworks/branch/master/graph/badge.svg["Codecov", link="https://codecov.io/gh/bmuschko/go-testing-frameworks"]
+= Go testing frameworks image:https://travis-ci.org/bmuschko/go-testing-frameworks.svg?branch=master["Build Status", link="https://travis-ci.org/bmuschko/go-testing-frameworks"] image:https://goreportcard.com/badge/github.com/bmuschko/go-testing-frameworks["Go Report Card", link="https://goreportcard.com/report/github.com/bmuschko/go-testing-frameworks"] image:https://codecov.io/gh/bmuschko/go-testing-frameworks/branch/master/graph/badge.svg["Codecov", link="https://codecov.io/gh/bmuschko/go-testing-frameworks"]
 
 Demonstrates the use of different testing frameworks for Go code.
 
