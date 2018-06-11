@@ -1,9 +1,9 @@
 package calc_ginkgo_test
 
 import (
+	. "github.com/bmuschko/go-testing-frameworks/calc"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	. "github.com/bmuschko/go-testing-frameworks/calc"
 )
 
 var _ = Describe("Calculator", func() {
@@ -39,4 +39,3 @@ var _ = Describe("Calculator", func() {
 		})
 	})
 })
-

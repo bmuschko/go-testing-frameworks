@@ -1,9 +1,9 @@
 package calc_gocheck_test
 
 import (
-	"testing"
-	. "github.com/go-check/check"
 	. "github.com/bmuschko/go-testing-frameworks/calc"
+	. "github.com/go-check/check"
+	"testing"
 )
 
 func Test(t *testing.T) {

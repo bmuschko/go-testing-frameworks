@@ -1,9 +1,9 @@
 package calc_goconvey_test
 
 import (
-	"testing"
-	. "github.com/smartystreets/goconvey/convey"
 	. "github.com/bmuschko/go-testing-frameworks/calc"
+	. "github.com/smartystreets/goconvey/convey"
+	"testing"
 )
 
 func TestAdd(t *testing.T) {
@@ -49,4 +49,3 @@ func TestDivide(t *testing.T) {
 		})
 	})
 }
-

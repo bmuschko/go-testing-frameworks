@@ -1,9 +1,9 @@
 package calc_testify_test
 
 import (
-	"testing"
-	. "github.com/stretchr/testify/assert"
 	. "github.com/bmuschko/go-testing-frameworks/calc"
+	. "github.com/stretchr/testify/assert"
+	"testing"
 )
 
 func TestAdd(t *testing.T) {

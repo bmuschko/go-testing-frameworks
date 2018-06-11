@@ -1,9 +1,9 @@
 package calc_goblin_test
 
 import (
-	"testing"
-	. "github.com/franela/goblin"
 	. "github.com/bmuschko/go-testing-frameworks/calc"
+	. "github.com/franela/goblin"
+	"testing"
 )
 
 func Test(t *testing.T) {

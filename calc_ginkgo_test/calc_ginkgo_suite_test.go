@@ -1,9 +1,9 @@
 package calc_ginkgo_test
 
 import (
-	"testing"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	"testing"
 )
 
 func TestCalc(t *testing.T) {

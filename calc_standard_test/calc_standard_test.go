@@ -1,8 +1,8 @@
 package calc_test
 
 import (
-	"testing"
 	. "github.com/bmuschko/go-testing-frameworks/calc"
+	"testing"
 )
 
 func TestAdd(t *testing.T) {
