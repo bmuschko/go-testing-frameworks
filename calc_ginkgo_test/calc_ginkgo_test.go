@@ -15,10 +15,10 @@ var _ = Describe("Calculator", func() {
 		})
 	})
 
-	Describe("Substract numbers", func() {
+	Describe("Subtract numbers", func() {
 		Context("3 from 5", func() {
 			It("should be 2", func() {
-				Expect(Substract(5, 3)).To(Equal(2))
+				Expect(Subtract(5, 3)).To(Equal(2))
 			})
 		})
 	})

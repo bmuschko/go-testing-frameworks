@@ -19,8 +19,8 @@ func (s *MySuite) TestAdd(c *C) {
 	c.Assert(result, Equals, 3)
 }
 
-func (s *MySuite) TestSubstract(c *C) {
-	result := Substract(5, 3)
+func (s *MySuite) TestSubtract(c *C) {
+	result := Subtract(5, 3)
 	c.Assert(result, Equals, 2)
 }
 

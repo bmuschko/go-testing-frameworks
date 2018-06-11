@@ -11,8 +11,8 @@ func TestAdd(t *testing.T) {
 	Equal(t, 3, result)
 }
 
-func TestSubstract(t *testing.T) {
-	result := Substract(5, 3)
+func TestSubtract(t *testing.T) {
+	result := Subtract(5, 3)
 	Equal(t, 2, result)
 }
 

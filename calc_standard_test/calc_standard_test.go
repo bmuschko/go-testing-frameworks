@@ -13,8 +13,8 @@ func TestAdd(t *testing.T) {
 	}
 }
 
-func TestSubstract(t *testing.T) {
-	result := Substract(5, 3)
+func TestSubtract(t *testing.T) {
+	result := Subtract(5, 3)
 
 	if result != 2 {
 		t.Errorf("Result was incorrect, got: %d, want: %d.", result, 2)

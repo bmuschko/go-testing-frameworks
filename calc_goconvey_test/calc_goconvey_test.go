@@ -17,13 +17,13 @@ func TestAdd(t *testing.T) {
 	})
 }
 
-func TestSubstract(t *testing.T) {
-	Convey("Substracting two numbers", t, func() {
+func TestSubtract(t *testing.T) {
+	Convey("Subtracting two numbers", t, func() {
 		x := 5
 		y := 3
 
 		Convey("should produce the expected result", func() {
-			So(Substract(x, y), ShouldEqual, 2)
+			So(Subtract(x, y), ShouldEqual, 2)
 		})
 	})
 }
