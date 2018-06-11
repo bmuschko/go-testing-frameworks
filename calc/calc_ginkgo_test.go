@@ -4,7 +4,13 @@ import (
 	. "github.com/bmuschko/go-testing-frameworks/calc"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	"testing"
 )
+
+func TestCalc(t *testing.T) {
+	RegisterFailHandler(Fail)
+	RunSpecs(t, "Calculator Suite")
+}
 
 var _ = Describe("Calculator", func() {
 	Describe("Add numbers", func() {
