@@ -1,4 +1,4 @@
-package calc_gocheck_test
+package calc_test
 
 import (
 	. "github.com/bmuschko/go-testing-frameworks/calc"
@@ -14,22 +14,22 @@ type MySuite struct{}
 
 var _ = Suite(&MySuite{})
 
-func (s *MySuite) TestAdd(c *C) {
+func (s *MySuite) TestAddWithGocheck(c *C) {
 	result := Add(1, 2)
 	c.Assert(result, Equals, 3)
 }
 
-func (s *MySuite) TestSubtract(c *C) {
+func (s *MySuite) TestSubtractWithGocheck(c *C) {
 	result := Subtract(5, 3)
 	c.Assert(result, Equals, 2)
 }
 
-func (s *MySuite) TestMultiply(c *C) {
+func (s *MySuite) TestMultiplyWithGocheck(c *C) {
 	result := Multiply(5, 6)
 	c.Assert(result, Equals, 30)
 }
 
-func (s *MySuite) TestDivide(c *C) {
+func (s *MySuite) TestDivideWithGocheck(c *C) {
 	result := Divide(10, 2)
 	c.Assert(result, Equals, float64(5))
 }

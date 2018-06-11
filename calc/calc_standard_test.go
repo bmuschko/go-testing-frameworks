@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestAdd(t *testing.T) {
+func TestAddWithTestingPackage(t *testing.T) {
 	result := Add(1, 2)
 
 	if result != 3 {
@@ -13,7 +13,7 @@ func TestAdd(t *testing.T) {
 	}
 }
 
-func TestSubtract(t *testing.T) {
+func TestSubtractWithTestingPackage(t *testing.T) {
 	result := Subtract(5, 3)
 
 	if result != 2 {
@@ -21,7 +21,7 @@ func TestSubtract(t *testing.T) {
 	}
 }
 
-func TestMultiply(t *testing.T) {
+func TestMultiplyWithTestingPackage(t *testing.T) {
 	result := Multiply(5, 6)
 
 	if result != 30 {
@@ -29,7 +29,7 @@ func TestMultiply(t *testing.T) {
 	}
 }
 
-func TestDivide(t *testing.T) {
+func TestDivideWithTestingPackage(t *testing.T) {
 	result := Divide(10, 2)
 
 	if result != 5 {

@@ -1,4 +1,4 @@
-package calc_goconvey_test
+package calc_test
 
 import (
 	. "github.com/bmuschko/go-testing-frameworks/calc"
@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-func TestAdd(t *testing.T) {
+func TestAddWithGoConvey(t *testing.T) {
 	Convey("Adding two numbers", t, func() {
 		x := 1
 		y := 2
@@ -17,7 +17,7 @@ func TestAdd(t *testing.T) {
 	})
 }
 
-func TestSubtract(t *testing.T) {
+func TestSubtractWithGoConvey(t *testing.T) {
 	Convey("Subtracting two numbers", t, func() {
 		x := 5
 		y := 3
@@ -28,7 +28,7 @@ func TestSubtract(t *testing.T) {
 	})
 }
 
-func TestMultiply(t *testing.T) {
+func TestMultiplyWithGoConvey(t *testing.T) {
 	Convey("Multiplying two numbers", t, func() {
 		x := 5
 		y := 6
@@ -39,7 +39,7 @@ func TestMultiply(t *testing.T) {
 	})
 }
 
-func TestDivide(t *testing.T) {
+func TestDivideWithGoConvey(t *testing.T) {
 	Convey("Dividing two numbers", t, func() {
 		x := 10
 		y := 2

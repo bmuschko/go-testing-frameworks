@@ -1,4 +1,4 @@
-package calc_goblin_test
+package calc_test
 
 import (
 	. "github.com/bmuschko/go-testing-frameworks/calc"
@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-func Test(t *testing.T) {
+func TestCalculator(t *testing.T) {
 	g := Goblin(t)
 	g.Describe("Calculator", func() {
 		g.It("should add two numbers ", func() {

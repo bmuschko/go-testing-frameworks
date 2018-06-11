@@ -1,4 +1,4 @@
-package calc_ginkgo_test
+package calc_test
 
 import (
 	. "github.com/onsi/ginkgo"
