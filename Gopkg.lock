@@ -10,8 +10,8 @@
     "translator",
     "translator/internal"
   ]
-  revision = "bdbc7fe5a2dfb0bbc2f04b5faa0baeb9658430d5"
-  version = "v1.3.0"
+  revision = "d7eb4bf2baf4ccca5d9e73f2289f3322d2eba917"
+  version = "v2.0.0"
 
 [[projects]]
   name = "github.com/davecgh/go-spew"
@@ -197,6 +197,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "975d3922d7bc0c7419b5da66201995aef0879c5734417f14477d0e65d7f4b1af"
+  inputs-digest = "0deb0190f1810ebfa38e25d21421ff0b84b358402b4ea851e94bee240d34fa65"
   solver-name = "gps-cdcl"
   solver-version = 1
