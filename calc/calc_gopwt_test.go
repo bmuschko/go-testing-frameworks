@@ -34,4 +34,3 @@ func TestDivideWithGopwt(t *testing.T) {
 	result := Divide(10, 2)
 	OK(t, float64(5) == result)
 }
-
