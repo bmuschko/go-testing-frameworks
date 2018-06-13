@@ -4,13 +4,13 @@ Demonstrates the use of different testing frameworks for Go code.
 
 [options="header"]
 |=======
-|Package              |Framework                                           |Description
-|`calc_standard_test` |https://golang.org/pkg/testing/[testing package]    |Go standard library testing support
-|`calc_testify_test`  |https://github.com/stretchr/testify[Testify]        |Assertion and mock helpers
-|`calc_gocheck_test`  |https://labix.org/gocheck[gocheck]                  |Assertion helpers
-|`calc_gopwt_test`    |https://github.com/ToQoz/gopwt[gopwt]               |Power assertion helpers
-|`calc_ginkgo_test`   |https://github.com/onsi/ginkgo[Ginkgo]              |Heavyweight BDD testing framework + assertion helpers
-|`calc_goblin_test`   |https://github.com/franela/goblin[Goblin]           |A Mocha like BDD testing framework
-|`calc_goconvey_test` |https://github.com/smartystreets/goconvey[GoConvey] |BDD testing framework with web UI
+|Go File                 |Framework                                           |Description
+|`calc_standard_test.go` |https://golang.org/pkg/testing/[testing package]    |Go standard library testing support
+|`calc_testify_test.go`  |https://github.com/stretchr/testify[Testify]        |Assertion and mock helpers
+|`calc_gocheck_test.go`  |https://labix.org/gocheck[gocheck]                  |Assertion helpers
+|`calc_gopwt_test.go`    |https://github.com/ToQoz/gopwt[gopwt]               |Power assertion helpers
+|`calc_ginkgo_test.go`   |https://github.com/onsi/ginkgo[Ginkgo]              |Heavyweight BDD testing framework + assertion helpers
+|`calc_goblin_test.go`   |https://github.com/franela/goblin[Goblin]           |A Mocha like BDD testing framework
+|`calc_goconvey_test.go` |https://github.com/smartystreets/goconvey[GoConvey] |BDD testing framework with web UI
 |=======
 
