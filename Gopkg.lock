@@ -67,6 +67,19 @@
   version = "v0.0.2"
 
 [[projects]]
+  name = "github.com/maxatome/go-testdeep"
+  packages = [
+    ".",
+    "internal/ctxerr",
+    "internal/dark",
+    "internal/location",
+    "internal/types",
+    "internal/util"
+  ]
+  revision = "92fe9af33672b5d7a1cf668f09f84450f7347da0"
+  version = "v1.0.7"
+
+[[projects]]
   name = "github.com/onsi/ginkgo"
   packages = [
     ".",
@@ -197,6 +210,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "0deb0190f1810ebfa38e25d21421ff0b84b358402b4ea851e94bee240d34fa65"
+  inputs-digest = "0b76847b8b3ce592adbdcc002fc749c35101224e8ac8625ffb3dd805f47aea7d"
   solver-name = "gps-cdcl"
   solver-version = 1

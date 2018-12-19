@@ -26,6 +26,10 @@
   name = "github.com/ToQoz/gopwt"
   version = "v2.0.0"
 
+[[constraint]]
+  name = "github.com/maxatome/go-testdeep"
+  version = "v1.0.7"
+
 [prune]
   go-tests = true
   unused-packages = true
